@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, family,
+ [{description, "family"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'family_app', []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto]}]}.
